@@ -27,7 +27,7 @@ public class TC22_AddCrtRec_h extends TestBase {
 		Assert.assertTrue(homeObject.recItmsHdr.isDisplayed());
 		
 		// 5. Click on 'Add To Cart' on Recommended product
-		homeObject.fRecAddCrtBtn.click();
+		homeObject.clickWithJS(homeObject.fRecAddCrtBtn);
 		Thread.sleep(1500); // wait for modal
 		
 		// 6. Click on 'View Cart' button

@@ -1,13 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Products Suite">
-  <test thread-count="1" name="Products Tests">
+  <test thread-count="1" name="TC08_VrfPrds_h">
     <classes>
       <class name="tests.products.TC08_VrfPrds_h"/>
+    </classes>
+  </test>
+  <test thread-count="1" name="TC09_SrchPrd_h">
+    <classes>
       <class name="tests.products.TC09_SrchPrd_h"/>
+    </classes>
+  </test>
+  <test thread-count="1" name="TC18_VwCatPrds_h">
+    <classes>
       <class name="tests.products.TC18_VwCatPrds_h"/>
+    </classes>
+  </test>
+  <test thread-count="1" name="TC19_VwBrdPrds_h">
+    <classes>
       <class name="tests.products.TC19_VwBrdPrds_h"/>
+    </classes>
+  </test>
+  <test thread-count="1" name="TC21_AddRev_h">
+    <classes>
       <class name="tests.products.TC21_AddRev_h"/>
     </classes>
-  </test> <!-- Products Tests -->
+  </test>
 </suite> <!-- Products Suite -->

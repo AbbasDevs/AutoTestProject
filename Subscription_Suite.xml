@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Subscription Suite">
-  <test thread-count="1" name="Subscription Tests">
+  <test thread-count="1" name="TC10_SubHome_h">
     <classes>
       <class name="tests.subscription.TC10_SubHome_h"/>
+    </classes>
+  </test>
+  <test thread-count="1" name="TC11_SubCart_h">
+    <classes>
       <class name="tests.subscription.TC11_SubCart_h"/>
     </classes>
   </test>

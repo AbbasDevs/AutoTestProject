@@ -1,12 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Checkout Suite">
-  <test thread-count="1" name="Checkout Tests">
+  <test thread-count="1" name="TC14_PlOrwChOu_h">
     <classes>
       <class name="tests.checkout.TC14_PlOrwChOu_h"/>
+    </classes>
+  </test>
+  <test thread-count="1" name="TC15_PlOrbChOu_h">
+    <classes>
       <class name="tests.checkout.TC15_PlOrbChOu_h"/>
+    </classes>
+  </test>
+  <test thread-count="1" name="TC16_PlOlbChOu_h">
+    <classes>
       <class name="tests.checkout.TC16_PlOlbChOu_h"/>
+    </classes>
+  </test>
+  <test thread-count="1" name="TC23_VrfAddChO_h">
+    <classes>
       <class name="tests.checkout.TC23_VrfAddChO_h"/>
+    </classes>
+  </test>
+  <test thread-count="1" name="TC24_DwnInv_h">
+    <classes>
       <class name="tests.checkout.TC24_DwnInv_h"/>
     </classes>
   </test>

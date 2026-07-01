@@ -1,16 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Authentication Suite">
-  <test thread-count="1" name="Authentication Tests">
+  <test thread-count="1" name="CleanupAccount">
     <classes>
       <class name="tests.authentication.CleanupAccount"/>
+    </classes>
+  </test>
+  <test thread-count="1" name="TC01_RegUsr_h">
+    <classes>
       <class name="tests.authentication.TC01_RegUsr_h"/>
+    </classes>
+  </test>
+  <test thread-count="1" name="RecreateAccount">
+    <classes>
       <class name="tests.authentication.RecreateAccount"/>
+    </classes>
+  </test>
+  <test thread-count="1" name="TC05_RegUsr_n">
+    <classes>
       <class name="tests.authentication.TC05_RegUsr_n"/>
+    </classes>
+  </test>
+  <test thread-count="1" name="TC02_LogUsr_h">
+    <classes>
       <class name="tests.authentication.TC02_LogUsr_h"/>
+    </classes>
+  </test>
+  <test thread-count="1" name="TC03_LogUsr_n">
+    <classes>
       <class name="tests.authentication.TC03_LogUsr_n"/>
+    </classes>
+  </test>
+  <test thread-count="1" name="TC04_LgOutUsr_h">
+    <classes>
       <class name="tests.authentication.TC04_LgOutUsr_h"/>
+    </classes>
+  </test>
+  <test thread-count="1" name="TC06_ContUs_h">
+    <classes>
       <class name="tests.authentication.TC06_ContUs_h"/>
     </classes>
-  </test> <!-- Authentication Tests -->
+  </test>
 </suite> <!-- Authentication Suite -->
