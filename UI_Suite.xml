@@ -3,9 +3,9 @@
 <suite name="UI Suite">
   <test thread-count="1" name="UI Tests">
     <classes>
-      <class name="tests.ui.TC07_TestCasesPage_happyScenario"/>
-      <class name="tests.ui.TC25_ScrollUpArrow_happyScenario"/>
-      <class name="tests.ui.TC26_ScrollUpWithoutArrow_happyScenario"/>
+      <class name="tests.ui.TC07_TstCasPg_h"/>
+      <class name="tests.ui.TC25_ScrUpArr_h"/>
+      <class name="tests.ui.TC26_ScrUpNoAr_h"/>
     </classes>
   </test>
 </suite>

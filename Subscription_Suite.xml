@@ -3,8 +3,8 @@
 <suite name="Subscription Suite">
   <test thread-count="1" name="Subscription Tests">
     <classes>
-      <class name="tests.subscription.TC10_SubscriptionHome_happyScenario"/>
-      <class name="tests.subscription.TC11_SubscriptionCart_happyScenario"/>
+      <class name="tests.subscription.TC10_SubHome_h"/>
+      <class name="tests.subscription.TC11_SubCart_h"/>
     </classes>
   </test>
 </suite>

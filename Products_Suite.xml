@@ -3,11 +3,11 @@
 <suite name="Products Suite">
   <test thread-count="1" name="Products Tests">
     <classes>
-      <class name="tests.products.TC08_VerifyProducts_happyScenario"/>
-      <class name="tests.products.TC09_SearchProduct_happyScenario"/>
-      <class name="tests.products.TC18_ViewCategoryProducts_happyScenario"/>
-      <class name="tests.products.TC19_ViewBrandProducts_happyScenario"/>
-      <class name="tests.products.TC21_AddReview_happyScenario"/>
+      <class name="tests.products.TC08_VrfPrds_h"/>
+      <class name="tests.products.TC09_SrchPrd_h"/>
+      <class name="tests.products.TC18_VwCatPrds_h"/>
+      <class name="tests.products.TC19_VwBrdPrds_h"/>
+      <class name="tests.products.TC21_AddRev_h"/>
     </classes>
   </test> <!-- Products Tests -->
 </suite> <!-- Products Suite -->

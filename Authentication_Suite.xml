@@ -4,13 +4,13 @@
   <test thread-count="1" name="Authentication Tests">
     <classes>
       <class name="tests.authentication.CleanupAccount"/>
-      <class name="tests.authentication.TC01_RegisterUser_happyScenario"/>
+      <class name="tests.authentication.TC01_RegUsr_h"/>
       <class name="tests.authentication.RecreateAccount"/>
-      <class name="tests.authentication.TC05_RegisterUser_negativeScenario"/>
-      <class name="tests.authentication.TC02_LoginUser_happyScenario"/>
-      <class name="tests.authentication.TC03_LoginUser_negativeScenario"/>
-      <class name="tests.authentication.TC04_LogoutUser_happyScenario"/>
-      <class name="tests.authentication.TC06_ContactUs_happyScenario"/>
+      <class name="tests.authentication.TC05_RegUsr_n"/>
+      <class name="tests.authentication.TC02_LogUsr_h"/>
+      <class name="tests.authentication.TC03_LogUsr_n"/>
+      <class name="tests.authentication.TC04_LgOutUsr_h"/>
+      <class name="tests.authentication.TC06_ContUs_h"/>
     </classes>
   </test> <!-- Authentication Tests -->
 </suite> <!-- Authentication Suite -->

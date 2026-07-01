@@ -3,11 +3,11 @@
 <suite name="Checkout Suite">
   <test thread-count="1" name="Checkout Tests">
     <classes>
-      <class name="tests.checkout.TC14_PlaceOrderRegisterWhileCheckout_happyScenario"/>
-      <class name="tests.checkout.TC15_PlaceOrderRegisterBeforeCheckout_happyScenario"/>
-      <class name="tests.checkout.TC16_PlaceOrderLoginBeforeCheckout_happyScenario"/>
-      <class name="tests.checkout.TC23_VerifyAddressCheckout_happyScenario"/>
-      <class name="tests.checkout.TC24_DownloadInvoice_happyScenario"/>
+      <class name="tests.checkout.TC14_PlOrwChOu_h"/>
+      <class name="tests.checkout.TC15_PlOrbChOu_h"/>
+      <class name="tests.checkout.TC16_PlOlbChOu_h"/>
+      <class name="tests.checkout.TC23_VrfAddChO_h"/>
+      <class name="tests.checkout.TC24_DwnInv_h"/>
     </classes>
   </test>
 </suite>
