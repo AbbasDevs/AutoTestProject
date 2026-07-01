@@ -2,11 +2,24 @@
 
 UI and API automation project using Java, TestNG, Maven, Selenium, and Rest Assured.
 
+Primary emphasis: API automation with Rest Assured for endpoint validation, status/assertion coverage, and negative scenarios.
+
 ## Project Scope
 
+- API automation suite (Rest Assured) for products and authentication endpoints
 - UI automation test suites for core e-commerce flows
-- API automation suite for products and authentication endpoints
 - Suite-driven execution using TestNG XML files
+
+## API Automation (Rest Assured)
+
+- Main API suite file: `api-testng.xml`
+- API test packages:
+  - `src/test/java/api/tests/products`
+  - `src/test/java/api/tests/authentication`
+- Focus areas:
+  - status code and response validation
+  - authentication and user lifecycle endpoints
+  - positive and negative test scenarios
 
 ## Tech Stack
 
@@ -51,16 +64,16 @@ From project root:
 Set-Location "C:\Users\mabbas\Downloads\Assignment\AutoTestProject"
 ```
 
+### Run API suite only (recommended first)
+
+```powershell
+mvn "-Dsurefire.suiteXmlFiles=api-testng.xml" test
+```
+
 ### Run all UI sub-suites via master suite
 
 ```powershell
 mvn "-Dsurefire.suiteXmlFiles=Master_Suite.xml" test
-```
-
-### Run API suite only
-
-```powershell
-mvn "-Dsurefire.suiteXmlFiles=api-testng.xml" test
 ```
 
 ### Run a single suite
@@ -81,6 +94,8 @@ After each run, reports are generated in:
 - `target/surefire-reports/index.html`
 - `target/surefire-reports/emailable-report.html`
 - `target/surefire-reports/testng-results.xml`
+
+For API-focused review, run `api-testng.xml` and then open `target/surefire-reports/index.html` to inspect API class and method-level results.
 
 ## Notes
 
