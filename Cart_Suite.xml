@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Cart Suite">
+  <test thread-count="1" name="Cart Tests">
+    <classes>
+      <class name="tests.cart.TC12_AddProductsCart_happyScenario"/>
+      <class name="tests.cart.TC13_VerifyQuantityCart_happyScenario"/>
+      <class name="tests.cart.TC17_RemoveProductsCart_happyScenario"/>
+      <class name="tests.cart.TC20_SearchProductsAndCart_happyScenario"/>
+      <class name="tests.cart.TC22_AddToCartRecommended_happyScenario"/>
+    </classes>
+  </test> <!-- Cart Tests -->
+</suite> <!-- Cart Suite -->

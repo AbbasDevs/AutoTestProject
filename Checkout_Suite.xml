@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Checkout Suite">
+  <test thread-count="1" name="Checkout Tests">
+    <classes>
+      <class name="tests.checkout.TC14_PlaceOrderRegisterWhileCheckout_happyScenario"/>
+      <class name="tests.checkout.TC15_PlaceOrderRegisterBeforeCheckout_happyScenario"/>
+      <class name="tests.checkout.TC16_PlaceOrderLoginBeforeCheckout_happyScenario"/>
+      <class name="tests.checkout.TC23_VerifyAddressCheckout_happyScenario"/>
+      <class name="tests.checkout.TC24_DownloadInvoice_happyScenario"/>
+    </classes>
+  </test>
+</suite>

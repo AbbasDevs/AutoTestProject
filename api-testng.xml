@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="API Test Suite">
+  <test name="Comprehensive API Tests">
+    <classes>
+      <class name="api.tests.products.TC01_GetPrd_h"/>
+      <class name="api.tests.products.TC02_GetBrd_h"/>
+      <class name="api.tests.products.TC03_SrcPrd_h"/>
+      <class name="api.tests.products.TC04_Prd404_n"/>
+      <class name="api.tests.products.TC05_Brd404_n"/>
+      <class name="api.tests.products.TC06_Src404_n"/>
+      <class name="api.tests.products.TC07_Prd405_n"/>
+      <class name="api.tests.products.TC08_Brd405_n"/>
+      <class name="api.tests.products.TC09_Src405_n"/>
+      <class name="api.tests.products.TC10_PrdNhd_n"/>
+      <class name="api.tests.products.TC11_BrdNhd_n"/>
+      <class name="api.tests.products.TC12_SrcNhd_n"/>
+      <class name="api.tests.products.TC13_SrcNpm_n"/>
+      <class name="api.tests.products.TC14_SrcBlk_n"/>
+      <class name="api.tests.products.TC15_PrdBdy_n"/>
+      <class name="api.tests.products.TC16_BrdBdy_n"/>
+      <class name="api.tests.authentication.TC17_CrtAcc_h"/>
+      <class name="api.tests.authentication.TC18_VrfLgn_h"/>
+      <class name="api.tests.authentication.TC19_GetUsr_h"/>
+      <class name="api.tests.authentication.TC20_UpdAcc_h"/>
+      <class name="api.tests.authentication.TC21_Crt404_n"/>
+      <class name="api.tests.authentication.TC22_Lgn404_n"/>
+      <class name="api.tests.authentication.TC23_Usr404_n"/>
+      <class name="api.tests.authentication.TC24_Upd404_n"/>
+      <class name="api.tests.authentication.TC25_Del404_n"/>
+      <class name="api.tests.authentication.TC26_Crt405_n"/>
+      <class name="api.tests.authentication.TC27_Lgn405_n"/>
+      <class name="api.tests.authentication.TC28_Usr405_n"/>
+      <class name="api.tests.authentication.TC29_Upd405_n"/>
+      <class name="api.tests.authentication.TC30_Del405_n"/>
+      <class name="api.tests.authentication.TC31_CrtHdr_n"/>
+      <class name="api.tests.authentication.TC32_LgnHdr_n"/>
+      <class name="api.tests.authentication.TC33_UsrHdr_n"/>
+      <class name="api.tests.authentication.TC34_UpdHdr_n"/>
+      <class name="api.tests.authentication.TC35_DelHdr_n"/>
+      <class name="api.tests.authentication.TC36_LgnNpm_n"/>
+      <class name="api.tests.authentication.TC37_CrtNpm_n"/>
+      <class name="api.tests.authentication.TC38_UpdNpm_n"/>
+      <class name="api.tests.authentication.TC39_DelNpm_n"/>
+      <class name="api.tests.authentication.TC40_LgnBlk_n"/>
+      <class name="api.tests.authentication.TC41_CrtBlk_n"/>
+      <class name="api.tests.authentication.TC42_UpdBlk_n"/>
+      <class name="api.tests.authentication.TC43_DelBlk_n"/>
+      <class name="api.tests.authentication.TC44_UsrBdy_n"/>
+      <class name="api.tests.authentication.TC45_LgnInv_n"/>
+      <class name="api.tests.authentication.TC46_DelAcc_h"/>
+    </classes>
+  </test>
+</suite>
