@@ -39,6 +39,8 @@ public class TC15_PlOrbChOu_h extends TestBase {
 		registerObject.usrEntAccInfo("pass", 1, "1", "2000", "Test", "User", "IT", "Add1", "Add2", "India", "State", "City", "123", "123456");
 		
 		// 6. Verify 'ACCOUNT CREATED!' and click 'Continue' button
+		org.openqa.selenium.support.ui.WebDriverWait waitAcc = new org.openqa.selenium.support.ui.WebDriverWait(driver, java.time.Duration.ofSeconds(10));
+		waitAcc.until(org.openqa.selenium.support.ui.ExpectedConditions.visibilityOf(registerObject.successMessage));
 		Assert.assertTrue(registerObject.successMessage.getText().equalsIgnoreCase("Account Created!"));
 		registerObject.userCanContinue();
 		
